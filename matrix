@@ -1,0 +1,16 @@
+a=[[2,4],[5,6]]
+b=[[6,5],[4,10]]
+result_main=[]
+for row in range(0,len(a)):
+    result_sub=[]
+    temp_a =a[row]
+    temp_b =b[row]
+    for col in range(0,len(temp_a)):
+        temp1=temp_a[col]
+        temp2=temp_b[col]
+        index_0=temp1+temp2
+        print('result:',index_0)
+        result_sub.append(index_0)
+        print(result_sub)
+        result_main.append(result_sub)
+print(result_main)
