@@ -1,0 +1,22 @@
+class student:
+    def __init__(self,name,rollnum):
+        self.name=name
+        self.rollnum=rollnum
+    def disply(self):
+        print(self.name)
+        print(self.rollnum)
+    def setage(self,age):
+        self.age=age
+        print(self.age)
+    def setMarks(self,marks):
+        self.marks=marks
+        print(self.marks)
+s=student('aqsa',12)
+s.setage(18)
+s.setMarks(432)
+s.disply()
+
+
+
+
+
